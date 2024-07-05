@@ -1,7 +1,4 @@
-#ifndef DRL_H
-#define DRL_H
-
-#include <stdint.h>
+#pragma once
 
 struct data {
     uint32_t flows_cnt;
@@ -26,5 +23,3 @@ struct data {
 
 int drl_update_prob(int prob);
 int drl_get_buffer(void *data, int *size);
-
-#endif // DRL_H
