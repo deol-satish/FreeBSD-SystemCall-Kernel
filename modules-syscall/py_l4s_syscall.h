@@ -21,5 +21,5 @@ struct data {
     uint32_t dq_count;
 };
 
-int drl_update_prob(int prob);
-int drl_get_buffer(void *data, int *size);
+// int drl_update_prob(int prob);
+// int drl_get_buffer(void *data, int *size);
